@@ -1,19 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-/* Estilo global do corpo teste */
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
     color: #023047;
-    background-image: url('/assets/imgs/InternexusBG3.jpg'); /* Imagem de fundo */
-    background-size: cover; /* Cobre toda a área da página */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Não repete a imagem */
-    height: 100vh; /* Garante que a imagem cubra a altura da tela */
+    background-image: url('/assets/imgs/InternexusBG3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
 }
 
-/* Estilo da página */
 .page {
     display: flex;
     flex-direction: column;
@@ -21,10 +19,9 @@ body {
     justify-content: center;
     width: 100%;
     height: 100%;
-    background-color: rgba(173, 216, 230, 0.5); /* Leve sobreposição para melhorar a legibilidade */
+    background-color: rgba(173, 216, 230, 0.5);
 }
 
-/* Estilo do formulário geral */
 .formLogin, .formRegister {
     display: flex;
     flex-direction: column;
@@ -32,12 +29,11 @@ body {
     border-radius: 7px;
     padding: 40px;
     box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
-    gap: 10px; /* Espaçamento entre os elementos */
+    gap: 10px;
     width: 100%;
-    max-width: 400px; /* Largura máxima para manter a responsividade */
+    max-width: 400px;
 }
 
-/* Estilo do título */
 .formLogin h1, .formRegister h1 {
     padding: 0;
     margin: 0 0 20px 0;
@@ -46,7 +42,6 @@ body {
     text-align: center;
 }
 
-/* Estilo das descrições */
 .formLogin p, .formRegister p {
     display: inline-block;
     font-size: 14px;
@@ -54,13 +49,11 @@ body {
     margin-bottom: 25px;
 }
 
-/* Estilo dos labels */
 .formLogin label, .formRegister label {
     font-size: 14px;
     font-weight: 600;
 }
 
-/* Estilo dos inputs e selects */
 .formLogin input, .formLogin select, .formRegister input, .formRegister select {
     padding: 15px;
     font-size: 14px;
@@ -73,12 +66,10 @@ body {
     width: calc(100% - 30px);
 }
 
-/* Estilo para focar nos inputs */
 .formLogin input:focus, .formLogin select:focus, .formRegister input:focus, .formRegister select:focus {
     border: 1px solid #f72585;
 }
 
-/* Estilo dos links */
 .formLogin a, .formRegister a {
     display: inline-block;
     margin-bottom: 20px;
@@ -94,13 +85,11 @@ body {
     font-weight: 600;
 }
 
-/* Estilo para hover nos links */
 .formLogin a:hover, .formRegister a:hover {
     transform: scale(1.05);
     background-color: #ff0676;
 }
 
-/* Estilo dos botões */
 .btn {
     background-color: #f72585;
     color: #fff;
@@ -112,10 +101,38 @@ body {
     cursor: pointer;
     border-radius: 4px;
     margin: 0 !important;
+    width: 100%;
 }
 
-/* Estilo para hover nos botões */
 .btn:hover {
     transform: scale(1.05);
     background-color: #ff0676;
+}
+
+a[href="Registro.html"] {
+    background-color: #f72585;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    padding: 10px 0;
+    transition: all linear 160ms;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 !important;
+    width: 100%;
+}
+
+a[href="#"] {
+    background-color: #f72585;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    padding: 10px 0;
+    transition: all linear 160ms;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 0 !important;
+    width: 100%;
 }
