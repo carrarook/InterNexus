@@ -6,7 +6,7 @@ body {
     margin: 0;
     padding: 0;
     color: #023047;
-    background-image: url('internexusBG3.jpg'); /* Imagem de fundo */
+    background-image: url('/assets/imgs/InternexusBG3.jpg'); /* Imagem de fundo */
     background-size: cover; /* Cobre toda a área da página */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Não repete a imagem */
